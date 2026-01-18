@@ -17,13 +17,13 @@ You can add `shared_buffer.nvim` using your favorite Neovim plugin manager. Here
 ### Using [packer.nvim](https://github.com/wbthomason/packer.nvim):
 
 ```lua
-use 'your-github-username/shared_buffer.nvim'
+use 'fmpisantos/shared_buffer.nvim'
 ```
 
 ### Using [vim-plug](https://github.com/junegunn/vim-plug):
 
 ```vim
-Plug 'your-github-username/shared_buffer.nvim'
+Plug 'fmpisantos/shared_buffer.nvim'
 ```
 
 After adding the plugin to your list, restart Neovim and run `:PackerInstall` (for packer) or `:PlugInstall` (for vim-plug).
@@ -31,7 +31,7 @@ After adding the plugin to your list, restart Neovim and run `:PackerInstall` (f
 Alternatively, you can clone this repository into your `~/.config/nvim/pack/plugins/start` directory as follows:
 
 ```bash
-git clone https://github.com/your-github-username/shared_buffer.nvim ~/.config/nvim/pack/plugins/start/shared_buffer.nvim
+git clone https://github.com/fmpisantos/shared_buffer.nvim ~/.config/nvim/pack/plugins/start/shared_buffer.nvim
 ```
 
 Restart Neovim to load the plugin.
